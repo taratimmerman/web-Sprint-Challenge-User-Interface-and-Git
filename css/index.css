@@ -76,7 +76,6 @@ p {
 /*NAV STYLES*/
 
 header {
-    border: 1px solid gray;
     display: flex;
     width: 90%;
     justify-content: center;
@@ -85,19 +84,22 @@ header {
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: flex-end;
-    border: 1px solid gray;
     width: 200rem;
 }
 
 nav a {
-    border: 1px solid gray;
+    justify-content: space-evenly;
     padding: 0 3%;
+    flex-wrap: nowrap;
+    color: black;
 }
 
-.logo {
-    border: 1px solid gray;
+.links {
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    width: 40rem;
 }
 
 /*TOP STYLES*/
@@ -229,3 +231,50 @@ footer nav a {
 
 /*ABOUT PAGE STYLING*/
 
+/*TOP CONTENT*/
+
+.jumbo-about {
+    padding-bottom: 2%;
+}
+.top-content-about {
+    padding: 3% 1%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+/*MIDDLE CONTENT*/
+
+.middle-content-about{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    width: 95%;
+}
+
+.middle {
+    width: 40%;
+    height: 30%;
+    padding-bottom: 5%;
+    border-bottom: 1px dashed black;
+    margin: 3%
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.button {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2% 3%;
+    font-size: 12px;
+    color: black;
+}
+
+/*BOTTOM CONTENT*/
+
+.bottom-content-about {
+    margin-bottom: 5px;
+}
