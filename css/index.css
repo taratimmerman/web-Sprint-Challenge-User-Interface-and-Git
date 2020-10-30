@@ -49,7 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
-    border: 1px solid gray;
+    text-decoration: none;
 }
 
 /*GENERAL STYLES*/
@@ -75,7 +75,30 @@ p {
 }
 /*NAV STYLES*/
 
+header {
+    border: 1px solid gray;
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    padding-top: 2%;
+}
 
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 1px solid gray;
+    width: 200rem;
+}
+
+nav a {
+    border: 1px solid gray;
+    padding: 0 3%;
+}
+
+.logo {
+    border: 1px solid gray;
+}
 
 /*TOP STYLES*/
 
@@ -85,12 +108,17 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding-top: 4%;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.jumbo {
+    padding-bottom: 3%;
 }
 
 /*MIDDLE STYLES*/
@@ -114,12 +142,52 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.one {
+    background-color: teal;
+}
+
+.two {
+    background-color: gold;
+}
+
+
+.three {
+    background-color: cadetblue;
+}
+
+.four {
+    background-color: coral;
+}
+
+.five {
+    background-color: crimson;
+}
+
+.six {
+    background-color: forestgreen;
+}
+
+.seven {
+    background-color: darkorchid;
+}
+
+.eight {
+    background-color: hotpink;
+}
+
+.nine {
+    background-color: indigo;
+}
+
+.ten {
+    background-color: dodgerblue;
 }
 
 /*BOTTOM STYLES*/
@@ -158,3 +226,6 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*ABOUT PAGE STYLING*/
+
